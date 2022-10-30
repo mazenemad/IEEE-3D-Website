@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE 3D Website</title>
+    <script src="https://kit.fontawesome.com/a7e2563dbb.js" crossorigin="anonymous"></script>
+    <script src="three.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<style>
+
+    .progress-bar-container{
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
+         width: 100%;
+         height: 100%;
+         background-color: rgb(0, 0, 0);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+    }
+    #progress-bar{
+        width: 30%;
+        margin-top: 0.5%;
+        height: 2%;
+    }
+    label{
+        color: white;
+        font-size: 2rem;
+    }
+</style>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="progress-bar-container">
+        <label for="progress-bar">Loading...</label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+    <div class="point-0">
+            <i class="fa-solid fa-x"></i>
+        <div class="lable1">
+            <h1 class="HRh11">Web Development Committee:</h1>
+            <div class="boxes">
+                <h2>Responsibilities:</h2>
+                <ol>
+                    <li>Troubleshoot website problems</li>
+                    <li>Monitor website traffic</li>
+                    <li> Stay up-to-date on technology</li>
+                    <li> Maintain and update our website</li>
+                </ol></div>
+            <div class="boxes boxes2">
+                <h2>Requirements:</h2>
+            <ol>
+                <li>problem-solving skills</li>
+                <li>Imagination and creaivity</li>
+                <li>Logical approach to work</li>
+                
+            </ol>
+            </div>
+        </div>
+    </div>
+        <div class="point-1 " >
+            <i class="fa-solid fa-x"></i>
+            <div class="lable1">
+                <h1 class="HRh11">IEEE ASWAN STUDENT BRANCH</h1>
+                <p >This content has been made for IEEE Aswan SB volunteers
+                    only and it is not legal to be copied, forwarded,
+                    disclosed, or to use any part of it.</p>
+            </div>
+        </div>
+        <div class="point-2 " >
+            <i class="fa-solid fa-x"></i>
+            <div class="lable1">
+                <h1 class="HRh11">Human Resources Committee</h1>
+                <div class="boxes">
+                    <h2>Responsibilities:</h2>
+                <ol>
+                    <li>Maintaining a healthy environment.</li>
+                    <li>Receiving volunteer's complaints and trying to solve them.</li>
+                    <li>Interviewing applicants and determining suitable ones to join our branch.</li>
+                    <li>Preparing a detailed profile of each member's seasonal contributions.</li>
+                </ol>
+        </div>
+        <div class="boxes boxes2">
+            <h2>Requirements:</h2>
+                <ol>
+                    <li>Communication skills</li>
+                    <li>Proactivity</li>
+                    <li>Advising</li>
+                    <li>Coaching</li>
+                    <li>Teamwork</li>
+                </ol>
+        </div>
+    </div>
+    </div>
+    <div class="point-3 " >
+        <i class="fa-solid fa-x"></i>
+        <div class="lable1">
+            <h1 class="HRh11">IEEE Fundraising Committee</h1>
+            <div class="boxes">
+                <h2>Responsibilities:</h2>
+            <ol>
+                <li>Ensuring financial resources for our branch.</li>
+                <li>Analyzing and studying the market for any potential sponsor.</li>
+                <li>Work hand in hand with the treasurer to help achieve the branch’s financial plan.</li>
+            </ol>
+    </div>
+    <div class="boxes boxes2">
+        <h2>Requirements:</h2>
+            <ol>
+                <li>Communication skills</li>
+                <li>Persuasion skills</li>
+                <li>Negotiations skills</li>
+                <li>Good network with people.</li>
+                <li>Good financial thinking.</li>
+            </ol>
+    </div>
+</div>
+</div>
+
+<div class="point-4 " >
+    <i class="fa-solid fa-x"></i>
+    <div class="lable1">
+        <h1 class="HRh11">Public Relations Committee</h1>
+        <div class="boxes">
+            <h2>Responsibilities:</h2>
+        <ol>
+            <li>The external communication and the dealing with (speakers, VIPs, media)</li>
+            <li>Representing the branch in the offline campaigns (such as the booths)</li>
+            <li>Building Relationships with different communities</li>
+            <li>Making a wide network of Speakers, VIPs & foundations and building an updated database of them.</li>
+        </ol>
+</div>
+<div class="boxes boxes2">
+    <h2>Requirements:</h2>
+        <ol>
+            <li>Communication skills</li>
+            <li>Presentation skills</li>
+            <li>Negotiations skills</li>
+            <li>Good writing skills</li>
+            <li>Preferable a good English</li>
+        </ol>
+</div>
+</div>
+</div>
+
+<div class="point-5 " >
+    <i class="fa-solid fa-x"></i>
+    <div class="lable1">
+        <h1 class="HRh11">IEEE Multimedia Committee</h1>
+        <div class="boxes">
+            <h2>Responsibilities:</h2>
+        <ol>
+           <li> Provide Photography and video coverage for any event.</li>
+           <li> Work hand in hand with the marketing committee to provide high-quality social media designs and any required videos.</li>
+        </ol>
+</div>
+<div class="boxes boxes2">
+    <h2>Requirements:</h2>
+        <ol>
+            <li>Imagination and creativity</li>
+            <li> Commitment</li>
+            <li>Having a good grasp of the skills or software needed for his role:</li>
+            <ol type="a">
+            <li> Photoshop is a must for designers and Illustrator is a plus.</li>
+            <li>Adobe premiere or any equivalent software for a video editor and Adobe after effects is a plus.</li>
+            <li>Good eye and his gear for photographers and videographers.</li>
+            </ol>
+        </ol>
+</div>
+</div>
+</div>
+
+<div class="point-6 " >
+    <i class="fa-solid fa-x"></i>
+    <div class="lable1">
+        <h1 class="HRh11">Social media Committee</h1>
+        <div class="boxes">
+            <h2>Responsibilities:</h2>
+        <ol>
+            <li>Writing and publishing press releases throughout different media channels.</li>
+            <li>Promotion of any news or event about the branch.</li>
+            <li>Work hand in hand with the multimedia committee to provide high-quality social media designs and any required video.</li>
+        </ol>
+</div>
+<div class="boxes boxes2">
+    <h2>Requirements:</h2>
+        <ol>
+            <li>skills</li>
+            <li>Imagination and creativity</li>
+            <li>Trend Awareness</li>
+            <li>Precision</li>
+        </ol>
+</div>
+</div>
+</div>
+
+<div class="point-7 " >
+    <i class="fa-solid fa-x"></i>
+    <div class="lable1">
+        <h1 class="HRh11">IEEE Campus Sub-Committee</h1>
+        <div class="boxes">
+            <h2>Responsibilities:</h2>
+        <ol>
+            <li>Serving and helping our students</li>
+            <li>competitions in events </li>
+        </ol>
+</div>
+<div class="boxes boxes2">
+    <h2>Requirements:</h2>
+        <ol>
+        <li>Communication skills<li>
+        <li> Creativity</li>   
+        <li>Good network with people</li>
+        </ol>
+</div>
+</div>
+</div>
+
+<div class="point-8 " >
+    <i class="fa-solid fa-x  exit"></i>
+    <div class="lable1">
+        <div class="contact" id="contact">
+            <h2>Let's keep in touch!</h2>
+            <form action="https://formspree.io/f/mgeqzwyl" method="post">
+                <input type="email"name="email" placeholder="Your Email">
+                <input type="text" name="message"  placeholder="Message">
+                <input type="submit" class="send" value="Send">
+            </form>
+            <div class="icons">
+            <a class="fa-brands fa-facebook" href="https://www.facebook.com/IEEEAswanSB" target="_blank"></a>
+            <a  class="fa-brands fa-instagram" href="https://www.instagram.com/ieeeaswansb/" target="_blank"></a>
+            <a class="fa-brands fa-twitter" href="https://twitter.com/IEEEAswanSB" target="_blank" ></a>
+            <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/company/ieeeaswansb" target="_blank" ></a>
+            </div>
+</div>
+</div>
+</div>
+
+<div class="point-9 " >
+    <i class="fa-solid fa-x  exit"></i>
+    <div class="lable1">
+        <h1>Hi im Yusuf Halby</h1>
+        <h2>CHAIRMAN</h2>
+        <div class="icons">
+            <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/yousof289/" target="_blank" ></a>
+            <a class="fa-brands fa-github" href="https://github.com/yusufhalby" target="_blank" ></a>
+            </div>
+</div>
+</div>
+
+<div class="point-10 " >
+    <i class="fa-solid fa-x  exit"></i>
+    <div class="lable1">
+        <h1>Hi im Samer Said</h1>
+        <h2>VICE-CHAIRMAN</h2>
+        <div class="icons">
+            <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/samer-said-saad-684386188" target="_blank" ></a>
+            </div>
+</div>
+</div>
+
+<div class="point-11 " >
+    <i class="fa-solid fa-x  exit"></i>
+    <div class="lable1">
+        <h1>Hi im Noha Elrashed</h1>
+        <h2>SECRETARY</h2>
+        <div class="icons">
+            <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/noha-nour22/" target="_blank" ></a>
+            <a class="fa-brands fa-github" href="https://github.com/nohanour222" target="_blank" ></a>
+            </div>
+</div>
+</div>
+
+<div class="point-12 " >
+    <i class="fa-solid fa-x  exit"></i>
+    <div class="lable1">
+        <h1>Hi im Esraa Mohamed</h1>
+        <h2>TREASURER</h2>
+        <div class="icons">
+            <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/esraa-mohamed-12142a216" target="_blank" ></a>
+            </div>
+</div>
+</div>
+
+</body>
+
+</html>

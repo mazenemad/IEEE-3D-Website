@@ -1,0 +1,1242 @@
+canvas{
+   position: fixed;
+   top: 0;
+   left: 0;
+   outline: none;
+}
+html,
+body
+{
+   scroll-behavior: smooth;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   font-family: 'Fuzzy Bubbles', cursive;
+}
+.point-0,
+.point-1,
+.point-2,
+.point-3,
+.point-4,
+.point-5,
+.point-6,
+.point-7,
+.point-8
+{
+   left: 5%;
+   top: 10%;
+}
+.point-9,
+.point-10,
+.point-11,
+.point-12{
+   left: 5%;
+   top: 20%;
+}
+.point-0{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   color:rgb(50, 105, 122);
+   display: none;
+}
+.point-0.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-0 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-0 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background:opacity 0.5;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.point-0 h1 {
+   color: rgb(255, 255, 255);
+   margin-left:60px;
+   font-size: 60px;
+   width: 100%;
+}
+.point-0 .boxes h2 {
+   padding-left: 2px;
+}
+.point-0 .boxes {
+   width: 300px;
+   height: 300px;
+   background-color: rgba(255, 255, 255, 0.315);
+   border-radius: 25px;
+   margin-left: 350px;
+   color: white;
+   
+}
+.point-0 .boxes2{
+height: 160px;
+}
+
+@media (max-width: 768px){
+
+   .point-0.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-0 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-0 .lable1 {
+      width: 320px;
+    height: 450px;
+    border-radius: 25px;
+    background-image: url('/static/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow-x: hidden;
+   }
+   .point-0 .HRh11 {
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      top: 89px;
+      margin-left: 17px;
+      margin-top: 2px;
+      width: 100%;
+      
+  }
+  .point-0 .boxes {
+ width: 299px;
+ height: 300px;
+ background-color: rgba(255, 255, 255, 0.315);
+ border-radius: 25px;
+ margin-left: 0;
+ color: white;
+ margin-top: 46px
+}
+.point-0 .boxes2{
+   height: 160px;
+   }
+   }
+
+/* Second---------------------------------------------------------second */
+
+.point-1{
+   position: absolute;
+   left: 5%;
+   top: 10%;
+   margin-bottom: 10%;
+   color:rgb(50, 105, 122);
+   display: none;
+}
+
+.point-1.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-1 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-1 .lable1 {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background:opacity 0.5;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.point-1 h1 {
+   color: rgb(255, 255, 255);
+   top: 100px;
+   margin-left:30px;
+   position:absolute;
+   font-size: 60px;
+   width: 100%;
+   opacity: 10;
+}
+.point-1 p {
+   margin-top: 300px;
+   color: rgba(255, 255, 255, 0.911);
+}
+
+@media (max-width: 768px){
+   .point-1.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-1 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-1 .lable1 {
+      width: 320px;
+    height: 400px;
+    border-radius: 25px;
+    background-image: url('/static/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   }
+   .point-1 .HR {
+      width: 450px;
+      height: 340px;
+      margin-left:275px;
+      margin-top:40px;
+      border-radius: 25px;
+   }
+   .point-1 h1 {
+      font-size: 35px;
+    color: rgb(255, 255, 255);
+    top: 89px;
+    margin-left: 56px;
+    margin-top: 2px;
+    /* position: absolute; */
+    width: 100%;
+  }
+   }
+/* -------------------------------------------------- */
+   .point-2{
+      position: absolute;
+      /* left: 5%; */
+      /* top: 10%; */
+      margin-bottom: 10%;
+      color:rgb(50, 105, 122);
+      display: none;
+   }
+   .point-2.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-2 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-2 .lable1 {
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 1000px;
+      height: 400px; 
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background:opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .point-2 h1 {
+      color: rgb(255, 255, 255);
+      margin-left:60px;
+      font-size: 60px;
+      width: 100%;
+   }
+   .point-2 .boxes h2 {
+      padding-left: 2px;
+   }
+   .point-2 .boxes {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.315);
+      border-radius: 25px;
+      margin-left: 350px;
+      color: white;
+      
+   }
+   .point-2 .boxes2{
+   height: 160px;
+   }
+   
+   @media (max-width: 768px){
+
+      .point-2.vis1 {
+         /* transform: scale(1,1); */
+         display: block;
+      }
+      
+      .point-2 i {
+         cursor: pointer;
+         color: rgb(255, 255, 255);
+      }
+      .point-2 .lable1 {
+         width: 320px;
+       height: 450px;
+       border-radius: 25px;
+       background-image: url('/static/background3.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       overflow: auto;
+       overflow-x: hidden;
+      }
+      .point-2 .HRh11 {
+         font-size: 30px;
+         color: rgb(255, 255, 255);
+         top: 89px;
+         margin-left: 17px;
+         margin-top: 2px;
+         width: 100%;
+         
+     }
+     .point-2 .boxes {
+    width: 299px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 25px;
+    margin-left: 0;
+    color: white;
+    margin-top: 46px
+   }
+   .point-2 .boxes2{
+      height: 160px;
+      }
+      }
+      /* -------------------------------------------------- */
+   .point-3{
+      position: absolute;
+      /* left: 5%; */
+      /* top: 10%; */
+      margin-bottom: 10%;
+      color:rgb(50, 105, 122);
+      display: none;
+   }
+   .point-3.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-3 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-3 .lable1 {
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 1000px;
+      height: 400px; 
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background:opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .point-3 h1 {
+      color: rgb(255, 255, 255);
+      margin-left:60px;
+      font-size: 60px;
+      width: 100%;
+   }
+   .point-3 .boxes h2 {
+      padding-left: 2px;
+   }
+   .point-3 .boxes {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.315);
+      border-radius: 25px;
+      margin-left: 350px;
+      color: white;
+      
+   }
+   .point-3 .boxes2{
+   height: 160px;
+   }
+   
+   @media (max-width: 768px){
+
+      .point-3.vis1 {
+         /* transform: scale(1,1); */
+         display: block;
+      }
+      
+      .point-3 i {
+         cursor: pointer;
+         color: rgb(255, 255, 255);
+      }
+      .point-3 .lable1 {
+         width: 320px;
+       height: 450px;
+       border-radius: 25px;
+       background-image: url('/static/background3.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       overflow: auto;
+       overflow-x: hidden;
+      }
+      .point-3 .HRh11 {
+         font-size: 30px;
+         color: rgb(255, 255, 255);
+         top: 89px;
+         margin-left: 17px;
+         margin-top: 2px;
+         width: 100%;
+         
+     }
+     .point-3 .boxes {
+    width: 299px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 25px;
+    margin-left: 0;
+    color: white;
+    margin-top: 46px
+   }
+   .point-3 .boxes2{
+      height: 160px;
+      }
+      }
+
+      /* -------------------------------------------------- */
+   .point-4{
+      position: absolute;
+      /* left: 5%; */
+      /* top: 10%; */
+      margin-bottom: 10%;
+      color:rgb(50, 105, 122);
+      display: none;
+   }
+   .point-4.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-4 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-4 .lable1 {
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 1000px;
+      height: 400px; 
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background:opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .point-4 h1 {
+      color: rgb(255, 255, 255);
+      margin-left:60px;
+      font-size: 60px;
+      width: 100%;
+   }
+   .point-4 .boxes h2 {
+      padding-left: 2px;
+   }
+   .point-4 .boxes {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.315);
+      border-radius: 25px;
+      margin-left: 350px;
+      color: white;
+      
+   }
+   .point-4 .boxes2{
+   height: 160px;
+   }
+   
+   @media (max-width: 768px){
+
+      .point-4.vis1 {
+         /* transform: scale(1,1); */
+         display: block;
+      }
+      
+      .point-4 i {
+         cursor: pointer;
+         color: rgb(255, 255, 255);
+      }
+      .point-4 .lable1 {
+         width: 320px;
+       height: 450px;
+       border-radius: 25px;
+       background-image: url('/static/background3.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       overflow: auto;
+       overflow-x: hidden;
+      }
+      .point-4 .HRh11 {
+         font-size: 30px;
+         color: rgb(255, 255, 255);
+         top: 89px;
+         margin-left: 17px;
+         margin-top: 2px;
+         width: 100%;
+         
+     }
+     .point-4 .boxes {
+    width: 299px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 25px;
+    margin-left: 0;
+    color: white;
+    margin-top: 46px
+   }
+   .point-4 .boxes2{
+      height: 160px;
+      }
+      }
+
+      /* -------------------------------------------------- */
+   .point-5{
+      position: absolute;
+      /* left: 5%; */
+      /* top: 10%; */
+      margin-bottom: 10%;
+      color:rgb(50, 105, 122);
+      display: none;
+   }
+   .point-5.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-5 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-5 .lable1 {
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 1000px;
+      height: 400px; 
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background:opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .point-5 h1 {
+      color: rgb(255, 255, 255);
+      margin-left:60px;
+      font-size: 60px;
+      width: 100%;
+   }
+   .point-5 .boxes h2 {
+      padding-left: 2px;
+   }
+   .point-5 .boxes {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.315);
+      border-radius: 25px;
+      margin-left: 350px;
+      color: white;
+      
+   }
+   .point-5 .boxes2{
+   height: 450PX;
+   }
+   
+   @media (max-width: 768px){
+
+      .point-5.vis1 {
+         /* transform: scale(1,1); */
+         display: block;
+      }
+      
+      .point-5 i {
+         cursor: pointer;
+         color: rgb(255, 255, 255);
+      }
+      .point-5 .lable1 {
+         width: 320px;
+       height: 450px;
+       border-radius: 25px;
+       background-image: url('/static/background3.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       overflow: auto;
+       overflow-x: hidden;
+      }
+      .point-5 .HRh11 {
+         font-size: 30px;
+         color: rgb(255, 255, 255);
+         top: 89px;
+         margin-left: 17px;
+         margin-top: 2px;
+         width: 100%;
+         
+     }
+     .point-5 .boxes {
+    width: 299px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 25px;
+    margin-left: 0;
+    color: white;
+    margin-top: 46px
+   }
+   .point-5 .boxes2{
+      height: 450px;
+      }
+      }
+/* -------------------------------------------------- */
+.point-6{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   color:rgb(50, 105, 122);
+   display: none;
+}
+.point-6.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-6 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-6 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background:opacity 0.5;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.point-6 h1 {
+   color: rgb(255, 255, 255);
+   margin-left:60px;
+   font-size: 60px;
+   width: 100%;
+}
+.point-6 .boxes h2 {
+   padding-left: 2px;
+}
+.point-6 .boxes {
+   width: 300px;
+   height: 300px;
+   background-color: rgba(255, 255, 255, 0.315);
+   border-radius: 25px;
+   margin-left: 350px;
+   color: white;
+   
+}
+.point-6 .boxes2{
+height: 160px;
+}
+
+@media (max-width: 768px){
+
+   .point-6.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-6 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-6 .lable1 {
+      width: 320px;
+    height: 450px;
+    border-radius: 25px;
+    background-image: url('/static/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow-x: hidden;
+   }
+   .point-6 .HRh11 {
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      top: 89px;
+      margin-left: 17px;
+      margin-top: 2px;
+      width: 100%;
+      
+  }
+  .point-6 .boxes {
+ width: 299px;
+ height: 300px;
+ background-color: rgba(255, 255, 255, 0.315);
+ border-radius: 25px;
+ margin-left: 0;
+ color: white;
+ margin-top: 46px
+}
+.point-6 .boxes2{
+   height: 160px;
+   }
+   }
+
+   /* -------------------------------------------------- */
+   .point-7{
+      position: absolute;
+      /* left: 5%; */
+      /* top: 10%; */
+      margin-bottom: 10%;
+      color:rgb(50, 105, 122);
+      display: none;
+   }
+   .point-7.vis1 {
+      /* transform: scale(1,1); */
+      display: block;
+   }
+   
+   .point-7 i {
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+   }
+   .point-7 .lable1 {
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 1000px;
+      height: 400px; 
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background:opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+   .point-7 h1 {
+      color: rgb(255, 255, 255);
+      margin-left:60px;
+      font-size: 60px;
+      width: 100%;
+   }
+   .point-7 .boxes h2 {
+      padding-left: 2px;
+   }
+   .point-7 .boxes {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.315);
+      border-radius: 25px;
+      margin-left: 350px;
+      color: white;
+      
+   }
+   .point-7 .boxes2{
+   height: 160px;
+   }
+   
+   @media (max-width: 768px){
+
+      .point-7.vis1 {
+         /* transform: scale(1,1); */
+         display: block;
+      }
+      
+      .point-7 i {
+         cursor: pointer;
+         color: rgb(255, 255, 255);
+      }
+      .point-7 .lable1 {
+         width: 320px;
+       height: 450px;
+       border-radius: 25px;
+       background-image: url('/static/background3.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       overflow: auto;
+       overflow-x: hidden;
+      }
+      .point-7 .HRh11 {
+         font-size: 30px;
+         color: rgb(255, 255, 255);
+         top: 89px;
+         margin-left: 17px;
+         margin-top: 2px;
+         width: 100%;
+         
+     }
+     .point-7 .boxes {
+    width: 299px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 25px;
+    margin-left: 0;
+    color: white;
+    margin-top: 46px
+   }
+   .point-7 .boxes2{
+      height: 160px;
+      }
+      }
+
+/* -------------------------------------------------- */
+.point-8{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   color:rgb(50, 105, 122);
+   display: none;
+}
+.point-8.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-8 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-8 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background:opacity 0.5;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.contact {
+   color: white;
+   margin-left: 300px;
+
+}
+.contact h2 {
+   font-size: 30px;
+   letter-spacing: 3px;
+   margin-bottom: 40px;
+}
+.contact form input {
+   margin-bottom: 40px;
+   width: 400px;
+   height: 30px;
+   background-color: transparent;
+   border-top:none;
+   border-left:none;
+   border-right:none;
+   display: block;
+   outline: none;
+   color: white;
+   background-color:rgba(255, 255, 255, 0.11) ;
+   border-radius: 10px;
+   border-bottom: 0;
+
+   
+}
+.contact input::placeholder{
+   color: white;
+   font-size: 15px;
+ }
+.contact .send {
+   color: white;
+   font-size: large;
+   border-bottom: 0;
+   width: 200px;
+   height: 25px;
+   margin-left: 100px;
+
+}
+.contact .send:hover {
+   color: rgb(0, 0, 0);
+  
+}
+
+.point-8 .icons a {
+   font-size: 50px;
+   text-decoration: none;
+margin-left: 30px;
+color: white;
+}
+.icons .fa-facebook:hover {
+   opacity: 0.7;
+   color: blue;
+}
+.icons .fa-instagram:hover {
+   opacity: 0.7;
+   color: rgb(211, 32, 187);
+}
+.icons .fa-twitter:hover {
+   opacity: 0.7;
+   color: rgb(36, 153, 207);
+}
+.icons .fa-linkedin-in:hover {
+   opacity: 0.7;
+   color: rgb(11, 11, 77);
+}
+.icons .fa-github:hover {
+   opacity: 0.7;
+   color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px){
+
+   .point-8 .lable1 {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 289px;
+      height: 418px;
+      border-radius: 25px;
+      background-image: url('/static/background3.png');
+      background: opacity 0.5;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .contact{
+   color: white;
+   margin-left: 7px;
+  }
+   .contact form input {
+      margin-bottom: 40px;
+      width: 236px;
+      height: 32px;
+      background-color: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      display: block;
+      outline: none;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.11);
+      border-radius: 10px;
+      border-bottom: 0;
+      margin-left: 19px;
+  }
+  .contact .send {
+   color: white;
+   font-size: large;
+   border-bottom: 0;
+   width: 200px;
+   height: 25px;
+   margin-left: 37px;
+}
+.point-8 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 30px;
+color: white;
+}
+}
+/* -------------------------------------------------------------- */
+.point-9{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-9.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-9 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-9 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 293px;
+   height: 192px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-9 h2 {
+   margin-left: 80px;
+}
+
+.point-9 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 40px;
+color: white;
+}
+.point-9{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-9.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-9 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-9 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 293px;
+   height: 192px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-9 h2 {
+   margin-left: 80px;
+}
+
+.point-9 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+   margin-top: 10px;
+margin-left: 70px;
+color: white;
+}
+
+/* -------------------------------------------------------------- */
+.point-10{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-10.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-10 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-10 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 293px;
+   height: 192px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-10 h2 {
+   margin-left: 80px;
+}
+
+.point-10 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 40px;
+color: white;
+}
+.point-10{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-10.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-10 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-10 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 270px;
+   height: 192px;
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-10 h2 {
+   margin-left: 36px;
+}
+
+.point-10 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+   margin-left: 120px;
+   color: white;
+}
+
+/* -------------------------------------------------------------- */
+.point-11{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-11.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-11 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-11 .lable1 {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   width: 293px;
+   height: 152px;
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   font-size: 14px;
+}
+.point-11 h2 {
+   margin-left: 80px;
+}
+
+.point-11 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 40px;
+color: white;
+}
+.point-11{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-11.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-11 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-11 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 293px;
+   height: 192px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-11 h2 {
+   margin-left: 80px;
+}
+
+.point-11 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+   margin-top: 10px;
+margin-left: 70px;
+color: white;
+}
+
+/* -------------------------------------------------------------- */
+.point-12{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-12.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-12 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-12 .lable1 {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 293px;
+   height: 192px; 
+   border-radius: 25px;
+   background-image: url('/static/background3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.point-12 h2 {
+   margin-left: 80px;
+}
+
+.point-12 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 40px;
+color: white;
+}
+.point-12{
+   position: absolute;
+   /* left: 5%; */
+   /* top: 10%; */
+   margin-bottom: 10%;
+   margin-right: 20%;
+   display: none;
+}
+.point-12.vis1 {
+   /* transform: scale(1,1); */
+   display: block;
+}
+
+.point-12 i {
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.point-12 .lable1 {
+   overflow-x: hidden;
+    overflow-y: hidden;
+    width: 261px;
+    height: 142px;
+    border-radius: 25px;
+    background-image: url('/static/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 12px;
+}
+.point-12 h2 {
+   margin-left: 80px;
+}
+
+.point-12 .icons a {
+   font-size: 30px;
+   text-decoration: none;
+margin-left: 120px;
+color: white;
+}
