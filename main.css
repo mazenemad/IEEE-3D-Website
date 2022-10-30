@@ -1,0 +1,140 @@
+canvas{
+   position: fixed;
+   top: 0;
+   left: 0;
+   outline: none;
+}
+
+.points{
+   position: absolute;
+   /* color: white; */
+   left: 15%;
+   top: 20%;
+   font-family: 'EB Garamond', serif;
+   color:rgb(50, 105, 122);
+
+}
+
+.points.vis .lable{
+   /* transform: scale(1,1); */
+   display: block;
+}
+.points:hover .text {
+   opacity: 1;
+   
+}
+/* //hereee */
+.points .lable {
+   position: absolute;
+   background-color:#00000077;
+   overflow: auto;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   border: rgb(50, 105, 122) 10px solid;
+   /* opacity: 0; */
+   text-align: center; 
+   display: none;
+   background-color: rgb(238, 234, 234);
+   padding: 10px;
+}
+.lable i {
+   margin-top: 10px;
+   margin-left: 950px;
+   cursor: pointer;
+   position:sticky;
+   top: 0;
+}
+
+.lable .layoutpropose{
+margin-right: 550px;
+}
+
+
+.lable .mainp{
+   padding-top: 2px;
+   background-color: rgb(50, 105, 122);
+   color: white;
+   width: 300px;
+   margin-left: 350px;
+   border-radius: 20px;
+   font-size: 22px;
+}
+
+.lable .box {
+   background-color: rgb(50, 105, 122);
+   color: white;
+   width: 300px;
+   border-radius: 20px;
+   text-align: center;
+   margin-left: 350px;
+   overflow: auto;
+   margin-top: 20px;
+   /* display: grid; */
+}
+.points .text {
+   position: absolute;
+   width: 300px;
+   top: 40px;
+   right: 50px;
+   opacity: 0;   
+   /* transition: opacity 0.5s; */
+   pointer-events: none;
+}
+
+/* Second---------------------------------------------------------second */
+
+.point-1{
+   position: absolute;
+   /* color: white; */
+   left: 15%;
+   top: 20%;
+   font-family: 'EB Garamond', serif;
+   color:rgb(50, 105, 122);
+
+}
+
+.point-1.vis1 .lable1{
+   /* transform: scale(1,1); */
+   display: block;
+}
+/* //hereee */
+.point-1 .lable1 {
+   position: absolute;
+   background-color:#00000077;
+   overflow: auto;
+   width: 1000px;
+   height: 400px; 
+   border-radius: 25px;
+   border: rgb(50, 105, 122) 10px solid;
+   /* opacity: 0; */
+   text-align: center; 
+   display: none;
+   background-color: rgb(238, 234, 234);
+   padding: 10px;
+}
+.lable1 i {
+   margin-top: 10px;
+   margin-left: 950px;
+   cursor: pointer;
+   position:sticky;
+   top: 0;
+}
+
+.lable1 h1{
+margin-right: 550px;
+}
+
+
+.lable1 p{
+   padding-top: 2px;
+   background-color: rgb(50, 105, 122);
+   color: white;
+   width: 300px;
+   margin-left: 350px;
+   border-radius: 20px;
+   font-size: 22px;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
